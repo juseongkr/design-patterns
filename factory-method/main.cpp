@@ -3,7 +3,7 @@
 #include "Pizza.h"
 #include "Factory.h"
 
-int main()
+int main(int argc, char *argv[])
 {
 	PizzaFactory *factory = new PizzaFactory();
 

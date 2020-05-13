@@ -13,5 +13,8 @@ int main(int argc, char *argv[])
 	std::cout << myCheesePizza->getType() << std::endl;
 	std::cout << myPepperoniPizza->getType() << std::endl;
 
+	delete myCheesePizza;
+	delete myPepperoniPizza;
+
 	return 0;
 }

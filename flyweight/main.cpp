@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Juice.h"
 
-int main()
+int main(int argc, char *argv[])
 {
 	JuiceFactory *factory = new JuiceFactory();
 

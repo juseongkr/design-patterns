@@ -24,6 +24,10 @@ public:
 	std::string getData() const {
 		return this->data;
 	}
+
+	~Singleton() {
+		delete instance;
+	}
 };
 
 #endif /* __SINGLETON_H__ */

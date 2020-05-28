@@ -32,8 +32,9 @@ private:
 	}
 
 	bool disconnect() const {
-		if (network) {
+		if (this->network) {
 			std::cout << "Disconnecting..." << std::endl;
+			delete this->network;
 			return true;
 		}
 		return false;

@@ -14,5 +14,7 @@ int main(int argc, char *argv[])
 	}
 	std::cout << std::endl;
 
+	delete user;
+
 	return 0;
 }

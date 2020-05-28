@@ -24,5 +24,7 @@ int main(int argc, char *argv[])
 	std::cout << factory->countJuices() << std::endl;
 	std::cout << factory->getRevenue() << std::endl;
 
+	delete factory;
+
 	return 0;
 }

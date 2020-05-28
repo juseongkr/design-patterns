@@ -13,5 +13,9 @@ int main(int argc, char *argv[])
 	CalcAdapter *adapter = new CalcAdapter();
 	std::cout << adapter->calculate("add", 15, 5) << std::endl;
 
+	delete old;
+	delete my;
+	delete adapter;
+
 	return 0;
 }

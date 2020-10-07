@@ -11,3 +11,12 @@
 * State Pattern
 * Strategy Pattern
 * Template Pattern
+
+### Build
+``` $ make ```
+
+### Run
+``` $ ./run.out ```
+
+### Clean
+``` $ make clean ```
